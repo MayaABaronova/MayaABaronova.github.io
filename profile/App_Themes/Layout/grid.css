@@ -1,0 +1,80 @@
+
+/*#mainbg {*/
+/*    width: 100%;*/
+/*    min-width: 1000px; !* 320 + 5 + 400 + 5 + 270 *!*/
+/*    display: grid;*/
+/*    grid-template-areas: "header header"*/
+/*                         "container sidebar"*/
+/*                         "footer footer";*/
+/*    grid-template-rows: 100px 1fr 165px;*/
+/*    grid-template-columns: 1fr 270px;*/
+/*    grid-row-gap: 5px;*/
+/*}*/
+
+/*    #mainbg.twocolumns {*/
+/*        grid-template-columns: 1fr 0;*/
+/*    }*/
+
+/*#header {*/
+/*    grid-area: header;*/
+/*    display: grid;*/
+/*    grid-template-columns: 320px 1fr 170px;*/
+/*    grid-template-rows: 1fr;*/
+/*    grid-column-gap: 20px;*/
+/*}*/
+
+/*#container {*/
+/*    grid-area: container;*/
+/*    display: grid;*/
+/*    grid-template-columns: 320px 1fr;*/
+/*    grid-template-rows: 1fr;*/
+/*    grid-column-gap: 15px;*/
+/*}*/
+
+/*#sidebar {*/
+/*    grid-area: sidebar;*/
+/*}*/
+
+/*#footer {*/
+/*    grid-area: footer;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+
+/* NSFW */
+.nsfw-tag .nsfw-show {
+    border-bottom: 1px dotted;
+}
+
+.nsfw-tag .nsfw-content-grid {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "nsfw-tag";
+}
+
+    .nsfw-tag .nsfw-content-grid .nsfw-alert {
+        text-align: center;
+        color: #933;
+        font-weight: bold;
+        background-color: rgba(255, 200, 200, 0.5);
+        z-index: 1;
+        cursor: pointer;
+        grid-area: nsfw-tag;
+    }
+
+    .nsfw-tag .nsfw-content-grid .nsfw-content {
+        overflow: hidden;
+        grid-area: nsfw-tag;
+    }
+
+.blurred-content, .blurred-content a {
+    color: transparent;
+    text-shadow: 0 0 10px black;
+}
+
+    .blurred-content img {
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+    }

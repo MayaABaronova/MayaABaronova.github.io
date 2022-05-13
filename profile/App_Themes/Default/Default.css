@@ -1,0 +1,458 @@
+@import url("https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Layout/all.css?v=20200615v1?raw=true");
+
+    BODY DIV #mainbg {
+        background-color: #FFF;
+    }
+
+FIELDSET {
+    border-color: #CCC;
+    background-color: #F5F5DC;
+}
+
+LEGEND {
+    /*background-color: #C5A373;*/
+    background-color: #F5F5DC;
+    border-left-color: #CCC;
+    border-top-color: #CCC;
+    border-right-color: #CCC;
+    color: #333;
+}
+
+A {
+    /*color: #3F78A8;*/
+    color: #506080;
+}
+
+A:hover {
+    color: #3F78A8;
+}
+
+a.aspNetDisabled, a.aspNetDisabled:hover {
+    color: #666;
+}
+
+H1 {
+    color: #963;
+}
+
+H2 {
+    color: #888;
+}
+
+H3 {
+    color: #963;
+}
+
+TEXTAREA, INPUT {
+    border-color: #CCC;
+    color: #666;
+}
+
+BODY #main .content .dmtxt TABLE {
+    background-color: #CCC;
+}
+
+    BODY #main .content .dmtxt TABLE TD {
+        background-color: #FFF;
+    }
+
+#header {
+    background-color: #FFF;
+}
+
+#left {
+    color: #666;
+}
+
+    #left TD {
+        color: #999;
+    }
+
+        /*#left A:hover {
+            color: #3F78A8;
+        }*/
+
+#main {
+    color: #666;
+}
+
+        #main .content .lightbg {
+            background-color: #F5F5DC;
+            border-color: #CCC;
+        }
+
+#sidebar {
+    color: #666;
+}
+
+    /*#sidebar A {
+        color: #666;
+    }*/
+
+        /*#sidebar A:hover {
+            color: #3F78A8;
+        }*/
+
+#header #info SPAN {
+    color: #CCC;
+}
+
+#footer {
+    /*border-top: solid 1px #999;
+	background-color: #EEE;*/
+    background-color: #FFF;
+}
+
+    #footer P, #footer div.p {
+        color: #999;
+    }
+
+.topline {
+    background-color: #999;
+}
+
+    .logo P, .logo H1, .logo div.p {
+        color: #963;
+    }
+
+
+    .topmenu A {
+        color: #999;
+    }
+
+        .topmenu A:hover {
+            color: #000;
+        }
+
+#info {
+    color: #666;
+    /*color: #999;*/
+}
+
+BODY #mainbg .headershadow {
+    background-color: #FFF;
+}
+
+.usermenu {
+    color: #999;
+}
+
+    /*.usermenu A {
+        color: #3F78A8;
+    }*/
+
+        .usermenu A:hover {
+            text-decoration: underline;
+        }
+
+.comment {
+    color: #999;
+}
+
+.greenText,
+#main .greenText,
+#main .content .greenText,
+#main .content .greenText B,
+#sidebar #info .greenText,
+#header #info .greenText {
+    color: #696;
+}
+
+.redText, #main .redText, #main .content .redText, #sidebar #info .redText, #header #info .redText {
+    color: #B22222;
+}
+
+.commonTable {
+    background-color: #CCC;
+}
+
+    .commonTable TD {
+        background-color: #F9F9F9;
+    }
+
+    .commonTable .header TD {
+        background-color: #EAEAEA;
+    }
+
+#mailGrid .mailbox:visited {
+    color: #999;
+}
+
+#main .content .commentItem {
+    /*background: #FFFAE1;*/
+    background-color: #EDECEB;
+    border-color: #CCC;
+}
+
+#main .content .diceLine SPAN {
+    border-color: #CCC;
+    background: #F0F0F0;
+    color: #963;
+}
+
+#main .content .commentItem .diceRollsbg {
+    /*background: #FFEBCD;*/
+    background-color: #E6E6E5;
+}
+
+#chatArea {
+    border-color: #CCC;
+}
+
+.chatHeader {
+    color: #999;
+    background: #E6E6E5;
+}
+
+#adminChat .chatHeader {
+    color: #999;
+    background: #E6E6E5;
+}
+
+
+
+.postcomment,
+#main .postcomment B,
+#main .postcomment I,
+#main .postcomment STRIKE,
+#main .postcomment U,
+#main .postcomment PRE
+#main .postcomment LI {
+    color: #7B532B;
+}
+
+.postcommentGreen,
+#main .postcommentGreen B,
+#main .postcommentGreen I,
+#main .postcommentGreen STRIKE,
+#main .postcommentGreen U,
+#main .postcommentGreen PRE
+#main .postcommentGreen LI {
+    color: #696;
+}
+
+#main .content .portrait, #main .portrait, portrait {
+    border-color: #999;
+}
+
+.submenu {
+    background-color: #EFEFEF;
+    border-color: #CCC;
+}
+.brackets {
+    color: #999;
+}
+
+.autoHiddenBrackets {
+    background-color: white;
+}
+
+    .pager A {
+        color: #3F78A8;
+    }
+
+#main .content .advantageItem {
+    background-color: #EEE;
+    /*border: dashed 1px #E0E0E0;*/
+}
+
+.advantageItem .number {
+    color: #DDD;
+}
+
+    .advantageItem .link A:hover {
+        color: #963;
+    }
+
+.advantageItem .advantage {
+    color: #696;
+}
+
+#main .content .innerAdvert {
+    /*
+    border: dashed 1px #CCC;*/
+    background-color: #E6E6E5;
+}
+
+#main .content .mainbanner P, #main .content .mainbanner div.p {
+    border-color: #CCC;
+    background-color: #F5F5DC;
+}
+
+
+
+#main .content .mainbanner SPAN, #sidebar .content .mainbanner SPAN, #sidebar .mainbanner SPAN {
+    color: #CCC;
+}
+
+.sidebarAdvert {
+    border-color: #CCC;
+}
+
+    .sidebarAdvert SPAN {
+        color: #CCC;
+    }
+
+    .defaultOpinion .bg, .defaultOpinion .bg TD {
+        background-color: #ebe9da;
+        color: #363;
+    }
+
+.blacktext {
+    color: #333;
+}
+
+.playerInfo {
+    background-color: #EFEFEF;
+    border-color: #CCC;
+}
+
+.gray6 {
+    color: #666;
+}
+
+.gray7 {
+    color: #666;
+}
+
+BODY #wrapper .gray {
+    color: #999;
+}
+
+.graytext, .grayText {
+    color: #999;
+}
+
+.lightgraytext, .lightgrayText {
+    color: #CCC;
+}
+
+.quote {
+    background: #E6E6E5;
+    border-left-color: #B0C4DE;
+}
+
+.mod {
+    background-color: #fafafa;
+    border-left-color: #696;
+}
+
+.commonTable {
+    background-color: #CCC;
+    color: #666;
+}
+
+    .commonTable .header TD {
+        background-color: #EAEAEA;
+    }
+
+    .commonTable TR TD {
+        background-color: #F9F9F9;
+    }
+
+    #links A, #links {
+        color: #CCC;
+    }
+
+
+    #ScrollTopButton:hover {
+        background-image: linear-gradient(to top, #fff, #e8e8e8);
+    }
+
+#HideScrollTopButtonLink {
+    border-bottom-color: #506080;
+}
+
+    #HideScrollTopButtonLink:hover {
+        border-bottom-color: #3F78A8;
+    }
+
+.indicator-all {
+    border-color: #313437;
+    background-image: -webkit-linear-gradient(top,#515457,#F0F0F0,#515457);
+    background-image: -moz-linear-gradient(top,#515457,#F0F0F0 50%,#515457);
+    background-image: -ms-linear-gradient(top,#515457,#F0F0F0 50%,#515457);
+    overflow: hidden;
+}
+
+.indicator-part1 {
+    background-color: #f2eeee;
+    box-shadow: 2px 0 4px #352519;
+}
+
+.indicator-header {
+    color: #630;
+}
+
+.txtDMTextBoxCtrl {
+
+    color: #444444;
+    border-color: #CCCCCC;
+    background-color: #F9F9F9;
+}
+
+.positiveRating {
+    color: #393;
+}
+
+.negativeRating {
+    color: #933;
+}
+
+.userIsOnline {
+    color: green;
+}
+
+.userIsOffline {
+    color: #CCC;
+}
+
+.progressTemplate {
+    color: #666;
+}
+
+.currentSelection {
+    color: #666666;
+}
+
+.newModule {
+    color: #339933;
+}
+
+.listNoInfo {
+    color: #999999;
+}
+
+.roomType {
+    color: gainsboro;
+}
+
+    .roomType.roomAccessible {
+        color: #9fcf9f;
+    }
+
+.unreadMessagesNotification {
+    color: #696;
+}
+
+.activeWatcher {
+    color: grey;
+}
+
+.alternateTableRow {
+    background-color: #E9E9E9;
+}
+
+.avatarBorder {
+    border-color: #999999;
+}
+
+.createUserButtonStyle {
+    border-color: #CCCCCC;
+    color: #666666;
+    background-color: #EAEAEA;
+}
+
+.table-bordered td, .table-bordered th {
+    border-color: #CCCCCC;
+}

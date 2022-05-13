@@ -1,0 +1,11 @@
+﻿@import url("https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/DM-Iconic/def.css?raw=true");
+@import url("https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/PT-Sans/def.css?raw=true");
+@import url("https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/Twemoji-Outlined/def.css?raw=true");
+
+*, html, body {
+	font-family: inherit !important;
+}
+
+body {
+	font-family: "PT Sans", Twemoji, "DM Iconic", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", sans-serif !important;
+}

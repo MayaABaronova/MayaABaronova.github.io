@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Twemoji';
+	src: url('https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/Twemoji-Outlined/twemoji.eot?raw=true');
+    src: url('https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/Twemoji-Outlined/twemoji.eot?#iefix?raw=true') format('eot'), url('https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/Twemoji-Outlined/twemoji.woff2?raw=true') format('woff2'), url('https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/Twemoji-Outlined/twemoji.woff?raw=true') format('woff'), url('https://github.com/MayaABaronova/MayaABaronova.github.io/blob/master/profile/App_Themes/Fonts/Twemoji-Outlined/twemoji.ttf?raw=true') format('truetype');
+}

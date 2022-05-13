@@ -1,0 +1,368 @@
+
+BODY {
+    font-size: 16px;
+}
+
+LEGEND {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+A {
+    text-decoration: none;
+}
+
+PRE, CODE {
+    font-family: Courier New, Courier, monospace !important;
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+A:hover {
+    text-decoration: underline;
+}
+
+a.aspNetDisabled, a.aspNetDisabled:hover {
+    text-decoration: none !important;
+}
+
+H1, H2 {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#main H2 {
+    font-size: 17px;
+}
+
+H1 {
+}
+
+H2 {
+}
+
+H3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+TEXTAREA, INPUT {
+    font-size: 16px;
+}
+
+div.dmtxt {
+    text-align: justify;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    /*hyphens: auto;*/
+}
+
+#left {
+    font-size: 16px;
+}
+
+    #left A {
+        text-decoration: none;
+    }
+
+        #left A:hover {
+            text-decoration: underline;
+        }
+
+#main {
+    font-size: 16px;
+}
+
+    /*#main P {
+        text-align: justify;
+    }*/
+
+    #main div.p {
+        text-align: justify;
+        -ms-word-break: break-all;
+        word-break: break-word;
+        word-wrap: break-word;
+        overflow-wrap: anywhere;
+        /*hyphens: auto;*/
+    }
+
+#sidebar {
+    font-size: 16px;
+}
+
+    #sidebar A {
+        text-decoration: none;
+    }
+
+        #sidebar A:hover {
+            text-decoration: underline;
+        }
+
+    #footer P {
+        font-size: 14px;
+    }
+
+    #footer div.p {
+        font-size: 14px;
+    }
+
+    .logo P, .logo H1, .logo div.p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+.common {
+    text-transform: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+#header .logo H1 {
+    text-transform: none;
+}
+
+.topmenu {
+    font-size: 20px;
+    /*text-transform: uppercase;*/
+    line-height: 15px;
+}
+
+    .topmenu A {
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+
+#info {
+    font-size: 14px;
+    /*
+font: 14px georgia;
+line-height:15px;*/
+}
+
+.usermenu {
+    font-size: 14px;
+}
+
+    .usermenu A {
+        text-decoration: none;
+    }
+
+        .usermenu A:hover {
+            text-decoration: underline;
+        }
+
+.comment {
+    font-size: 12px;
+}
+
+    .commonTable .header TD {
+        font-weight: bold;
+    }
+
+
+.noUnderline A, #main .content .noUnderline, #left .noUnderline, #sidebar .noUnderline, .content #leftmenu .noUnderline {
+    text-decoration: none;
+}
+
+#mailGrid .mailbox:visited {
+    font-weight: normal;
+}
+
+#main .content .diceLine SPAN {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#main .content .commentItem A {
+    text-decoration: none;
+}
+
+#main .commentItem .firstrow {
+    font-size: 16px;
+}
+
+.chatHeader {
+    font-size: 16px;
+}
+
+#adminChat .chatHeader {
+    font-size: 16px;
+}
+
+#chatGrid P, #chatGrid div.p {
+    font-size: 16px;
+    /*word-wrap: break-word;*/
+}
+
+.ratinglink {
+    font-family: Courier New, Courier, monospace !important;
+    font-size: 14px;
+}
+
+.inline .submenu:hover {
+    /*overflow: auto; */
+    text-decoration: none;
+}
+
+TD A {
+    text-decoration: none;
+}
+
+    TD A:hover {
+        text-decoration: underline;
+    }
+
+.brackets {
+}
+
+    .pager A {
+        text-decoration: none;
+    }
+
+.advantageItem .number {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.advantageItem .link A {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .advantageItem .link A:hover {
+        text-decoration: none;
+    }
+
+.advantageItem .advantage {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#main .content .innerAdvert {
+    /*
+font-weight: bold;*/
+    text-align: left;
+    line-height: 18px;
+}
+
+#main .content .mainbanner P, #main .content .mainbanner div.p {
+    text-align: left;
+    font-weight: bold;
+}
+
+#main .content .mainbanner SPAN, #sidebar .content .mainbanner SPAN, #sidebar .mainbanner SPAN {
+    font-size: 14px;
+    text-align: left;
+}
+
+.sidebarAdvert {
+    text-align: left;
+    font-weight: bold;
+}
+
+    .sidebarAdvert SPAN {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    #main .sidebarAdvert P, #main .sidebarAdvert A, #main .sidebarAdvert div.p {
+        text-align: center;
+    }
+
+.important {
+    font-size: 16px;
+}
+
+    .gray7:hover {
+        text-decoration: none;
+    }
+
+        /*.commentItem table .firstrow {
+            word-wrap:break-word;
+        }*/
+
+
+.bold {
+    font-weight: bold;
+}
+
+    .commonTable .header TD {
+        font-weight: bold;
+        text-align: center;
+    }
+
+#links {
+    font-size: 14px;
+}
+
+    #links A, #links {
+        text-decoration: none;
+    }
+
+.storng16px {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.important {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#ScrollTopButton {
+    font-family: verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+#HideScrollTopButtonLinkWrapper {
+    text-align: center;
+}
+
+#HideScrollTopButtonLink {
+    font-size: 12px;
+}
+
+    #HideScrollTopButtonLink:hover {
+        text-decoration: none;
+    }
+
+.indicator-all {
+    vertical-align: middle;
+}
+
+.indicator-part1 {
+    text-align: center;
+}
+
+.indicator-header {
+    font-weight: bold;
+}
+
+.txtDMTextBoxCtrl {
+    font-size: 16px;
+}
+
+.post-reminder-star {
+    /*font-family: 'Roboto', Tahoma, serif !important;*/
+    font-size: 20px;
+}
+
+.progressTemplate {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.createUserButtonStyle {
+    font-size: 16px;
+    font-weight: bold;
+}
