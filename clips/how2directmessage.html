@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>How to direct message</title>
+<script src="https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/techs/simplemodalvids/js/jquery-3.1.1.min.js"></script>
+<script src="js/videopopup.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/techs/simplemodalvids/css/videopopup.css" media="screen" />
+</head>
+<body>
+<br /><br />
+<h1>HOW TO:</h1>
+<p>V 1.0</p>
+<a href="javascript:void(0)" id="video1">-- open video --</a>
+<br />
+<p>Об отправке личных сообщений на сайте <a href="https://dungeonmaster.ru/">Данженмастер ру</a>:</p>
+<div id="vidBox">
+        <div id="videCont">
+		<video autoplay id="v1" loop controls="controls">
+            <source src="video/VideoPopUpHTML5.webm" type="video/webm">
+            <source src="https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/clips/how2directmessage.mp4" type="video/mp4">
+        </video>
+         </div>
+        </div>
+            <script type="text/javascript">
+            $(function () {
+               $('#vidBox').VideoPopUp({
+                	backgroundColor: "#17212a",
+                	opener: "video1",
+                    maxweight: "640",
+                    idvideo: "v1"
+                });
+            });
+    </script>
+</body>
+</html>
