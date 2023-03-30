@@ -25,7 +25,7 @@
 			.cryo	{color: rgb(128, 255, 255);}
 			.geo	{color: rgb(255, 172, 0);}
 			.missing	{display: none;}
-			BODY	{line-height: 27px;}
+			BODY	{background-color: #414b5c;}
 			TABLE	{border-collapse: separate;
 					border-color: #221f1f;
 					border-spacing: 4.5px;
@@ -39,7 +39,7 @@
 					font-size: 22px;
 					font-style: normal;
 					font-weight: 300;
-					line-height: 22px;
+					line-height: 27px;
 					padding: 4.5px 0 4.5px 0;
 					text-align: start;
 					text-shadow: rgba(0, 0, 0, .65) 0 0 1px, rgba(0, 0, 0, .65) 0 -1px 1px, rgba(0, 0, 0, .65) 1px -1px 1px, rgba(0, 0, 0, .65) 1px 0 1px, rgba(0, 0, 0, .65) 1px 1px 1px, rgba(0, 0, 0, .65) 0 1px 1px, rgba(0, 0, 0, .65) -1px 1px 1px, rgba(0, 0, 0, .65) -1px 0 1px, rgba(0, 0, 0, .65) -1px -1px 1px, rgba(0, 0, 0, .45) 0 -2px 2px, rgba(0, 0, 0, .45) 1px -2px 2px, rgba(0, 0, 0, .45) 2px -2px 2px, rgba(0, 0, 0, .45) 2px -1px 2px, rgba(0, 0, 0, .45) 2px 0 2px, rgba(0, 0, 0, .45) 2px 1px 2px, rgba(0, 0, 0, .45) 2px 2px 2px, rgba(0, 0, 0, .45) 1px 2px 2px, rgba(0, 0, 0, .45) 0 2px 2px, rgba(0, 0, 0, .45) -1px 2px 2px, rgba(0, 0, 0, .45) -2px 2px 2px, rgba(0, 0, 0, .45) -2px 1px 2px, rgba(0, 0, 0, .45) -2px 0 2px, rgba(0, 0, 0, .45) -2px -1px 2px, rgba(0, 0, 0, .45) -2px -2px 2px!important;
@@ -83,9 +83,11 @@
 						border: 1px solid #221f1f;}
 			.negative	{background: linear-gradient(rgb(145, 22, 23) 0%, rgb(210, 32, 40) 100%);
 						border: 1px solid #221f1f;}
+			.interface	{background: linear-gradient(#ece5d8 0%, #d3bc8e 100%);
+						border: 1px solid #221f1f;}
 </style>
 </head>
-<body><table class='positive'><tbody><tr><th>&nbsp;#&nbsp;</th><th>&nbsp;Глаз&nbsp;</th><th>&nbsp;Бой&nbsp;</th><th>&nbsp;Пол&nbsp;</th><th>&nbsp;Персонаж&nbsp;</th><th>&nbsp;🟆&nbsp;</th><th>&nbsp;Возвышение&nbsp;</th><th>&nbsp;Регион&nbsp;</th><th>&nbsp;Фракция&nbsp;</th><th>&nbsp;Статус&nbsp;</th><th>&nbsp;Примечания&nbsp;</th>
+<body><table class='interface'><tbody><tr><th>&nbsp;#&nbsp;</th><th>&nbsp;Глаз&nbsp;</th><th>&nbsp;Бой&nbsp;</th><th>&nbsp;Пол&nbsp;</th><th>&nbsp;Персонаж&nbsp;</th><th>&nbsp;🟆&nbsp;</th><th>&nbsp;Возвышение&nbsp;</th><th>&nbsp;Регион&nbsp;</th><th>&nbsp;Фракция&nbsp;</th><th>&nbsp;Статус&nbsp;</th><th>&nbsp;Примечания&nbsp;</th>
 <tr class='anemo'>
 	<td>&nbsp;№1&nbsp;</td>
 	<td>&nbsp;n/a&nbsp;</td>
@@ -261,13 +263,13 @@
 	<td>&nbsp;Ордо&nbsp;Фавониус&nbsp;</td>
 	<td>&nbsp;алхимик&nbsp;</td>
 </tr>
-<tr class='missing anemo'><td>&nbsp;№ 16&nbsp;</td>
+<tr class='anemo'><td>&nbsp;№ 16&nbsp;</td>
 	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Wind.png'></td>
 	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Sword.png'></th>
 	<td>&nbsp;F&nbsp;</td>
 	<td>&nbsp;Джинн&nbsp;</td>
-	<th>&nbsp;n/a&nbsp;</th>
-	<th>&nbsp;n/a&nbsp;</th>
+	<th>&nbsp;0&nbsp;</th>
+	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Jean_icon.png);'>&nbsp;🟆🟆&nbsp;</th>
 	<td>&nbsp;Монштадт&nbsp;</td>
 	<td>&nbsp;Ордо&nbsp;Фавониус&nbsp;</td>
 	<td>&nbsp;действующий&nbsp;<br>&nbsp;магистр&nbsp;</td>
@@ -302,7 +304,7 @@
 	<td>&nbsp;Монштадт&nbsp;</td>
 	<td>&nbsp;независимая&nbsp;</td>
 	<td>&nbsp;Великий&nbsp;астролог&nbsp;</td>
-	<td>&nbsp;6/8/8&nbsp;</td>
+	<td>&nbsp;7/8/8&nbsp;</td>
 </tr>
 <tr class='missing electro'><td>&nbsp;№ 20&nbsp;</td>
 	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Electric.png'></td>
@@ -396,7 +398,8 @@
 	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Hu_Tao_icon.png);'>&nbsp;n/a&nbsp;</th>
 	<td>&nbsp;Монштадт&nbsp;</td>
 	<td>&nbsp;Ритуальное&nbsp;бюро&nbsp;<br>&nbsp;«Ваншэн»&nbsp;</td>
-	<td>&nbsp;действующий&nbsp;<br>&nbsp;магистр&nbsp;</td>
+	<td>&nbsp;директор&nbsp;</td>
+	<td>&nbsp;8/8/8&nbsp;</td>
 </tr>
 <tr class='missing ZZZZ'><td>&nbsp;№ 31&nbsp;</td>
 	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Water.png'></td>
@@ -495,7 +498,7 @@
 	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Gorou_icon.png);'>&nbsp;🟆🟆🟆&nbsp;</th>
 	<td>&nbsp;Инадзума,&nbsp;<br>&nbsp;Ватацуми&nbsp;</td>
 	<td>&nbsp;армия&nbsp;<br>&nbsp;сопротивления&nbsp;</td>
-	<td>&nbsp;генерал /&nbsp;<br>&nbsp;колумнист&nbsp;</td></tr>
+	<td>&nbsp;генерал /&nbsp;<br>&nbsp;колумнистка&nbsp;</td></tr>
 <tr class='missing geo'><td>&nbsp;№ 43&nbsp;</td>
 	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Water.png'></td>
 	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Catalyst.png'></th>
@@ -551,7 +554,7 @@
 	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Shikanoin_Heizou_icon.png);'>&nbsp;🟆🟆🟆&nbsp;</th>
 	<td>&nbsp;Инадзума&nbsp;</td>
 	<td>&nbsp;комиссия&nbsp;Тэнрё&nbsp;</td>
-	<td>&nbsp;следователь&nbsp;</td></tr>
+	<td>&nbsp;досин&nbsp;</td></tr>
 <tr class='dendro'><td>&nbsp;№ 51&nbsp;</td>
 	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Grass.png'></td>
 	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Bow.png'></th>
@@ -604,11 +607,11 @@
 	<td>&nbsp;F&nbsp;</td>
 	<td>&nbsp;Нахида&nbsp;</td>
 	<th>&nbsp;0&nbsp;</th>
-	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Nahida_icon.png);'>&nbsp;🟆🟆🟆&nbsp;🟆🟆&nbsp;</th>
+	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Nahida_icon.png);'>&nbsp;🟆🟆🟆&nbsp;🟆🟆🟆&nbsp;</th>
 	<td>&nbsp;Сумеру&nbsp;</td>
 	<td>&nbsp;святилище&nbsp;<br>&nbsp;Сурастаны&nbsp;</td>
 	<td>&nbsp;Архонт,&nbsp;малая&nbsp;<br>&nbsp;властительница&nbsp;</td>
-	<td>&nbsp;6/8/8&nbsp;</td></tr>
+	<td>&nbsp;6/👑/8&nbsp;</td></tr>
 <tr class='cryo'><td>&nbsp;№ 58&nbsp;</td>
 	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Ice.png'></td>
 	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Sword.png'></th>
@@ -618,7 +621,8 @@
 	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Layla_icon.png);'>&nbsp;n/a&nbsp;</th>
 	<td>&nbsp;Сумеру,&nbsp;<br>&nbsp;Академия&nbsp;</td>
 	<td>&nbsp;Даршан&nbsp;<br>&nbsp;Ртавахист&nbsp;</td>
-	<td>&nbsp;студентка&nbsp;</td></tr>
+	<td>&nbsp;студентка&nbsp;</td>
+	<td>&nbsp;1/4/3&nbsp;</td></tr></tr>
 <tr class='anemo'><td>&nbsp;№ 59&nbsp;</td>
 	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Wind.png'></td>
 	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Bow.png'></th>
@@ -636,7 +640,7 @@
 	<td>&nbsp;M&nbsp;</td>
 	<td>&nbsp;Странник&nbsp;</td>
 	<th>&nbsp;0&nbsp;</th>
-	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Wanderer_icon.png);'>&nbsp;🟆🟆🟆&nbsp;🟆&nbsp;</th>
+	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Wanderer_icon.png);'>&nbsp;🟆🟆🟆&nbsp;🟆🟆🟆&nbsp;</th>
 	<td>&nbsp;Сумеру&nbsp;<br>&nbsp;(ран.&nbsp;Инадзума)&nbsp;</td>
 	<td>&nbsp;независимый&nbsp;</td>
 	<td>&nbsp;странник&nbsp;</td>
@@ -652,5 +656,39 @@
 	<td>&nbsp;Ли&nbsp;Юэ&nbsp;</td>
 	<td>&nbsp;Обитель&nbsp;Песен&nbsp;<br>&nbsp;и&nbsp;Скитаний&nbsp;</td>
 	<td>&nbsp;наперсница&nbsp;адепта&nbsp;</td>
+</tr>
+<tr class='dendro missing'><td>&nbsp;№ 62&nbsp;</td>
+	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Grass.png'></td>
+	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Swoed.png'></th>
+	<td>&nbsp;M&nbsp;</td>
+	<td>&nbsp;Аль-Хайтам&nbsp;</td>
+	<th>&nbsp;n/a&nbsp;</th>
+	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Yaoyao_icon.png);'>&nbsp;n/a&nbsp;</th>
+	<td>&nbsp;Сумеру&nbsp;(Академия)&nbsp;</td>
+	<td>&nbsp;Секретариат&nbsp;</td>
+	<td>&nbsp;ВРИО&nbsp;Главного&nbsp;Мудреца&nbsp;</td>
+</tr>
+
+<tr class='pyro missing'><td>&nbsp;№ 63&nbsp;</td>
+	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Fire.png'></td>
+	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Claymore.png'></th>
+	<td>&nbsp;F&nbsp;</td>
+	<td>&nbsp;Дэхья&nbsp;</td>
+	<th>&nbsp;n/a&nbsp;</th>
+	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Dehya_icon.png);'>&nbsp;n/a&nbsp;</th>
+	<td>&nbsp;Сумеру&nbsp;(пустыня)&nbsp;</td>
+	<td>&nbsp;Пустынники&nbsp;</td>
+	<td>&nbsp;наёмница&nbsp;</td>
+</tr>
+<tr class='cryo'><td>&nbsp;№ 64&nbsp;</td>
+	<td><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_Icon_Fatui_Ice.png'></td>
+	<th><img src='https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/UI_GachaTypeIcon_Pole.png'></th>
+	<td>&nbsp;M&nbsp;</td>
+	<td>&nbsp;Мика&nbsp;</td>
+	<th>&nbsp;1&nbsp;</th>
+	<th style='background-image: url(https://raw.githubusercontent.com/MayaABaronova/MayaABaronova.github.io/main/images/Impact13/Mika_icon.png);'>&nbsp;n/a&nbsp;</th>
+	<td>&nbsp;Монштадт&nbsp;</td>
+	<td>&nbsp;Ордо&nbsp;Фавониус&nbsp;</td>
+	<td>&nbsp;геодезист&nbsp;</td>
 </tr>
 </tbody></table></body>
